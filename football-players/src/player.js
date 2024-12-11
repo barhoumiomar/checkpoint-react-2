@@ -3,12 +3,12 @@ import React from "react";
 import { Card } from "react-bootstrap";
 const Player = ({ name, team, nationality, jerseyNumber, age, imageUrl }) => {
   const cardStyle = {
+    color:"black",
     width: "19rem",
     margin: "1rem",
-    boxShadow: "0 40px 80px rgba(0, 0, 0, 0.2)",
-    
+    boxShadow: "0 40px 50px rgba(0, 0, 0, 0.5)",
   };
-
+  
   const imageStyle = {
     height: "200px",
     objectFit: "cover",
